@@ -5,7 +5,7 @@ const langRegex = /<script(\slang="(?<lang>[a-zA-Z]*)")?>/;
 const processor = {
   ...vueEslintPluginProcessor,
 
-  preprocess(text) {
+  preprocess(text, filename) {
     const matches = text.match(langRegex);
     const lang = (matches && matches.groups.lang) || 'js';
 
