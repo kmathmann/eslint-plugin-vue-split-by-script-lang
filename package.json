@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-vue-split-by-script-lang",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Allows to handle eslint configuration for a vue.js codebase with mixed languages",
   "main": "index.js",
   "engine-strict": true,
@@ -12,6 +12,14 @@
   },
   "author": "Kevin Mathmann<kevin.mathmann@gmail.com>",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kmathmann/eslint-plugin-vue-split-by-script-lang.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kmathmann/eslint-plugin-vue-split-by-script-lang/issues"
+  },
+  "homepage": "https://github.com/kmathmann/eslint-plugin-vue-split-by-script-lang#readme",
   "peerDependencies": {
     "eslint": ">=7.22.0",
     "eslint-plugin-vue": ">=7.8.0"
